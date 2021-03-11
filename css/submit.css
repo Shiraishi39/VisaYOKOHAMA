@@ -1,0 +1,169 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+#submit_main {
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+  margin-top: 70px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: rgba(193, 227, 255, 0.5);
+}
+
+#submit_main #submit_main_container {
+  width: 80%;
+  height: auto;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 45px 30px;
+  background-color: #fff;
+}
+
+#submit_main #submit_main_container #SMC_title {
+  text-align: center;
+}
+
+#submit_main #submit_main_container #SMC_title h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#submit_main #submit_main_container #SMC_desc {
+  margin-top: 30px;
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+#submit_main #submit_main_container #SMC_desc .error_message li {
+  font-weight: bold;
+  color: red;
+  list-style: none;
+}
+
+#submit_main #submit_main_container #SMC_desc .error_message li:last-child {
+  margin-bottom: 10px;
+}
+
+#submit_main #submit_main_container #SMC_form {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+#submit_main #submit_main_container #SMC_form .SMC_form_line {
+  padding: 10px;
+  border-bottom: dotted 3px rgba(0, 42, 90, 0.5);
+}
+
+#submit_main #submit_main_container #SMC_form .SMC_form_line:last-child {
+  border: none;
+}
+
+#submit_main #submit_main_container #SMC_form .SMC_form_line .SMC_form_name {
+  display: inline-block;
+  width: 150px;
+  vertical-align: top;
+  font-weight: bold;
+}
+
+#submit_main #submit_main_container #SMC_form .SMC_form_line .SMC_form_name p {
+  display: inline;
+}
+
+#submit_main #submit_main_container #SMC_form .SMC_form_line .SMC_form_value {
+  display: inline-block;
+  max-width: 360px;
+  overflow-wrap: break-word;
+}
+
+#submit_main #submit_main_container #SMC_form .SMC_form_line .SMC_form_value p {
+  display: inline;
+}
+
+#submit_main #button_container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#submit_main #button_container button {
+  width: 100px;
+  height: 50px;
+  background-color: #eb582c;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+#submit_main #button_container button:hover {
+  background-color: #ff7950;
+}
+
+@media (max-width: 756px) {
+  #submit_main {
+    padding-top: 40px;
+  }
+  #submit_main #submit_main_container {
+    width: 100%;
+    max-width: 100%;
+    padding: 30px 10px;
+  }
+  #submit_main #submit_main_container #SMC_title h1 {
+    font-size: 2.7rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 756px) and (max-width: 500px) {
+  #submit_main #submit_main_container #SMC_title h1 {
+    font-size: 5.5vw;
+  }
+}
+
+@media (max-width: 756px) {
+  #submit_main #submit_main_container #SMC_desc {
+    margin-top: 15px;
+  }
+  #submit_main #submit_main_container #SMC_form {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  #submit_main #submit_main_container #SMC_form .SMC_form_line {
+    padding: 10px;
+    border-bottom: dotted 3px rgba(0, 42, 90, 0.5);
+  }
+  #submit_main #submit_main_container #SMC_form .SMC_form_line:last-child {
+    border: none;
+  }
+  #submit_main #submit_main_container #SMC_form .SMC_form_line .SMC_form_name {
+    display: block;
+    width: 100%;
+  }
+  #submit_main #submit_main_container #SMC_form .SMC_form_line .SMC_form_value {
+    display: block;
+    max-width: 100%;
+    margin-top: 10px;
+    overflow-wrap: break-word;
+  }
+  #submit_main #button_container button {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 45px;
+    font-size: 1.8rem;
+  }
+}
+
+footer {
+  background-color: rgba(193, 227, 255, 0.5);
+}
+/*# sourceMappingURL=submit.css.map */
